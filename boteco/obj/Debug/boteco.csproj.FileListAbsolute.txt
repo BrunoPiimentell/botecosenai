@@ -1,0 +1,15 @@
+C:\Users\Aluno\source\repos\boteco\bin\Debug\DbBoteco.mdf
+C:\Users\Aluno\source\repos\boteco\bin\Debug\DbBoteco_log.ldf
+C:\Users\Aluno\source\repos\boteco\bin\Debug\boteco.exe.config
+C:\Users\Aluno\source\repos\boteco\bin\Debug\boteco.exe
+C:\Users\Aluno\source\repos\boteco\bin\Debug\boteco.pdb
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.FrmLogin.resources
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.FrmSplash.resources
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.Properties.Resources.resources
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.csproj.GenerateResource.cache
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.exe
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.pdb
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.FrmPrincipal.resources
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.FrmCliente.resources
