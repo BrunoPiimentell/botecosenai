@@ -13,3 +13,6 @@ C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.exe
 C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.pdb
 C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.FrmPrincipal.resources
 C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.FrmCliente.resources
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.FrmProduto.resources
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.FrmFuncionario.resources
+C:\Users\Aluno\source\repos\boteco\obj\Debug\boteco.FrmVendas.resources

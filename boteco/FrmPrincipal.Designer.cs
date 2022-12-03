@@ -32,11 +32,11 @@ namespace boteco
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.funcionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produtosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.pbxClientes = new System.Windows.Forms.PictureBox();
             this.pbxProdutos = new System.Windows.Forms.PictureBox();
@@ -77,6 +77,25 @@ namespace boteco
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
             // 
+            // funcionáriosToolStripMenuItem
+            // 
+            this.funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
+            this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.funcionáriosToolStripMenuItem.Text = "Funcionários";
+            // 
+            // produtosToolStripMenuItem
+            // 
+            this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
+            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.produtosToolStripMenuItem.Text = "Produtos";
+            // 
+            // clientesToolStripMenuItem
+            // 
+            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.clientesToolStripMenuItem.Text = "Clientes";
+            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
+            // 
             // vendasToolStripMenuItem
             // 
             this.vendasToolStripMenuItem.Name = "vendasToolStripMenuItem";
@@ -90,25 +109,6 @@ namespace boteco
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
-            // 
-            // funcionáriosToolStripMenuItem
-            // 
-            this.funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
-            this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.funcionáriosToolStripMenuItem.Text = "Funcionários";
-            // 
-            // produtosToolStripMenuItem
-            // 
-            this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
-            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.produtosToolStripMenuItem.Text = "Produtos";
-            // 
-            // clientesToolStripMenuItem
-            // 
-            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.clientesToolStripMenuItem.Text = "Clientes";
-            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -140,6 +140,7 @@ namespace boteco
             this.pbxProdutos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxProdutos.TabIndex = 3;
             this.pbxProdutos.TabStop = false;
+            this.pbxProdutos.Click += new System.EventHandler(this.pbxProdutos_Click);
             // 
             // pbxSair
             // 
@@ -161,6 +162,7 @@ namespace boteco
             this.pbxFuncionarios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxFuncionarios.TabIndex = 4;
             this.pbxFuncionarios.TabStop = false;
+            this.pbxFuncionarios.Click += new System.EventHandler(this.pbxFuncionarios_Click);
             // 
             // pbxVendas
             // 
@@ -171,6 +173,7 @@ namespace boteco
             this.pbxVendas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxVendas.TabIndex = 5;
             this.pbxVendas.TabStop = false;
+            this.pbxVendas.Click += new System.EventHandler(this.pbxVendas_Click);
             // 
             // label2
             // 

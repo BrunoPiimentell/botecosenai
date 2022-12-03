@@ -48,5 +48,23 @@ namespace boteco
             FrmCliente cliente = new FrmCliente();
             cliente.Show();
         }
+
+        private void pbxProdutos_Click(object sender, EventArgs e)
+        {
+            FrmProduto produto = new FrmProduto();
+            produto.Show();
+        }
+
+        private void pbxFuncionarios_Click(object sender, EventArgs e)
+        {
+            FrmFuncionario funcionario = new FrmFuncionario();
+            funcionario.Show();
+        }
+
+        private void pbxVendas_Click(object sender, EventArgs e)
+        {
+            FrmVendas venda = new FrmVendas();
+            venda.Show();
+        }
     }
 }
